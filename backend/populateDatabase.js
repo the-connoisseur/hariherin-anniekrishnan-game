@@ -23,7 +23,7 @@ function populateDatabase() {
       if (err) console.error('Error inserting category:', err.message);
     });
 
-    // Masters of Wine (category_id: 1)
+    // Master of Wine (category_id: 1)
     // Question 1
     db.run(
       'INSERT INTO questions (category_id, question, answer, points) VALUES (?, ?, ?, ?)',
@@ -157,13 +157,13 @@ function populateDatabase() {
     // Question 10
     db.run(
       'INSERT INTO questions (category_id, question, answer, points) VALUES (?, ?, ?, ?)',
-      [2, '?', '', 500],
+      [2, 'BUZZER ROUND', '', 500],
       (err) => {
         if (err) console.error('Error inserting question:', err.message);
       }
     );
 
-    // Insert questions for Harry Potter (category_id: 3)
+    // PotterMania (category_id: 3)
     // Question 11
     db.run(
       'INSERT INTO questions (category_id, question, answer, points) VALUES (?, ?, ?, ?)',
@@ -206,13 +206,13 @@ function populateDatabase() {
     // Question 15
     db.run(
       'INSERT INTO questions (category_id, question, answer, points) VALUES (?, ?, ?, ?)',
-      [3, 'W _ _ _ _   _ _ _ _ A', '', 500],
+      [3, 'BUZZER ROUND', '', 500],
       (err) => {
         if (err) console.error('Error inserting question:', err.message);
       }
     );
 
-    // Insert questions for I'm a Traveler (category_id: 4)
+    // Peak Performance (category_id: 4)
     // Question 16
     db.run(
       'INSERT INTO questions (category_id, question, answer, points) VALUES (?, ?, ?, ?)',
@@ -261,7 +261,7 @@ function populateDatabase() {
     // Question 19
     db.run(
       'INSERT INTO questions (category_id, question, answer, points) VALUES (?, ?, ?, ?)',
-      [4, '', 'Petra, Jordan', 400],
+      [4, '', 'The Great Wall of China', 400],
       (err) => {
         if (err) console.error('Error inserting question:', err.message);
       }
@@ -276,7 +276,7 @@ function populateDatabase() {
     // Question 20
     db.run(
       'INSERT INTO questions (category_id, question, answer, points) VALUES (?, ?, ?, ?)',
-      [4, '', 'The Great Wall Of China', 500],
+      [4, '', 'Petra, Jordan', 500],
       (err) => {
         if (err) console.error('Error inserting question:', err.message);
       }
@@ -289,7 +289,7 @@ function populateDatabase() {
       }
     );
 
-    // Pop Culture (category_id: 5)
+    // What's Poppin'? (category_id: 5)
     // Question 21
     db.run(
       'INSERT INTO questions (category_id, question, answer, points) VALUES (?, ?, ?, ?)',

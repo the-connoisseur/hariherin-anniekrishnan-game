@@ -41,19 +41,6 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error('Element with ID "question-images" not found');
       }
 
-      // // Show image if image_path exists
-      // const questionImage = document.getElementById('question-image');
-      // if (questionImage) {
-      //   if (question.image_path) {
-      //     questionImage.src = question.image_path;
-      //     questionImage.style.display = 'block';
-      //   } else {
-      //     questionImage.style.display = 'none';
-      //   }
-      // } else {
-      //   console.error('Element with ID "question-image" not found');
-      // }
-
       const revealAnswerButton = document.getElementById('reveal-answer');
       if (revealAnswerButton) {
         revealAnswerButton.addEventListener('click', () => {
