@@ -77,3 +77,19 @@ button {
   padding: 20px 40px;
   font-size: 20px;
 }
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer small {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+footer img {
+  height: 18px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
