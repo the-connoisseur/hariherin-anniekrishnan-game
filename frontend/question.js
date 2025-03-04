@@ -32,8 +32,8 @@ document.addEventListener('DOMContentLoaded', () => {
         question.images.forEach(imagePath => {
           const img = document.createElement('img');
           img.src = imagePath;
+          img.classList.add('question-image');
           img.alt = 'Question Image';
-          img.style.maxWidth = "45%";
           img.style.margin = '5px';
           imagesContainer.appendChild(img);
         });

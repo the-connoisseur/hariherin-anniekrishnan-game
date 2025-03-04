@@ -49,6 +49,11 @@ h1 {
   flex-wrap: wrap;
 }
 
+.question-image {
+  height: 500px;
+  width: auto;
+}
+
 .question-container {
   max-width: 1000px;
   margin: 0 auto;
