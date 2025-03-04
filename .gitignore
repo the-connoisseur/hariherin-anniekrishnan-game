@@ -1,2 +1,5 @@
 # Don't check in the game database file. It can be generated using backend/populateDatabase.js.
 data/game.db
+
+# Don't check in node modules, to avoid bloat and version-control noise.
+node_modules/
